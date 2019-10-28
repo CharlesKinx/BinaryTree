@@ -1,0 +1,34 @@
+﻿  binaryTree.cpp
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(11): error C3646: “stackList”: 未知重写说明符
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(11): error C2143: 语法错误: 缺少“,”(在“[”的前面)
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(11): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(11): error C2238: 意外的标记位于“;”之前
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(17): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(17): error C2238: 意外的标记位于“;”之前
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(18): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(18): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(18): error C2238: 意外的标记位于“;”之前
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(6): error C2059: 语法错误:“;”
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(10): error C2059: 语法错误:“}”
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(12): error C2039: “binaryTreeNode”: 不是“binaryTreeNode”的成员
+  C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(9): note: 参见“binaryTreeNode”的声明
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(12): error C2039: “binarytreenode”: 不是“binaryTreeNode”的成员
+  C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(9): note: 参见“binaryTreeNode”的声明
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(12): error C2182: “preorderBinaryTree”: 非法使用“void”类型
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(12): error C7525: 内联变量至少需要 "/std:c++17"
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(12): error C2448: “preorderBinaryTree”: 函数样式初始值设定项类似函数定义
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(16): error C2039: “binaryTreeNode”: 不是“binaryTreeNode”的成员
+  C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(9): note: 参见“binaryTreeNode”的声明
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(16): error C2039: “binarytreenode”: 不是“binaryTreeNode”的成员
+  C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(9): note: 参见“binaryTreeNode”的声明
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(16): error C2182: “inorderBinaryTree”: 非法使用“void”类型
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(16): error C7525: 内联变量至少需要 "/std:c++17"
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(16): error C2448: “inorderBinaryTree”: 函数样式初始值设定项类似函数定义
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(20): error C2039: “binaryTreeNode”: 不是“binaryTreeNode”的成员
+  C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(9): note: 参见“binaryTreeNode”的声明
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(20): error C2039: “binarytreenode”: 不是“binaryTreeNode”的成员
+  C:\Users\Charles\source\repos\TreeNode\TreeNode\treeNode.h(9): note: 参见“binaryTreeNode”的声明
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(20): error C2182: “postorderBinaryTree”: 非法使用“void”类型
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(20): error C7525: 内联变量至少需要 "/std:c++17"
+C:\Users\Charles\source\repos\TreeNode\TreeNode\treeMethods.h(20): error C2448: “postorderBinaryTree”: 函数样式初始值设定项类似函数定义
