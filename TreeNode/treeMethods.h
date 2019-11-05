@@ -1,35 +1,37 @@
 #pragma once
 #include"treeNode.h"
 #include<stdlib.h>
+#include<stdio.h>
+#include"stackMethods.h"
 
-inline void initBinaryTree(binaryTreeNode* binarytreenode) {
-	binarytreenode->size = 0;
-}
-
-/*
-创建一个二叉树
-当输入结点的值为-1是结束创建
-当输入结点的值为0时表示为空
-*/
-
-inline dataNode* createBinaryTree(binaryTreeNode* binarytreenode) {
-	int newData;
-	if (binarytreenode == 0) {
-		printf("创建失败!\n");
+inline binaryTreeNode* createBinaryTree() {
+	int temporaryData;
+	binaryTreeNode* binarytreenode;
+	scanf_s("%d", &temporaryData);
+	if (temporaryData == -1) {
 		return NULL;
 	}
 	else {
-		while (scanf_s("%d", &newData) != -1) {
-			binarytreenode->stackList[binarytreenode->size].data = newData;
-			if (binarytreenode->stackList[0].data == 0) {
-				return;
-			}
+		binarytreenode = (binaryTreeNode*)malloc(sizeof(binaryTreeNode));
+		binarytreenode->data = temporaryData;
+		binarytreenode->leftNode = createBinaryTree();
+		binarytreenode->rightNode = createBinaryTree();
+	}
+	return binarytreenode;
+} 
+
+inline void preorderBinaryTree(binaryTreeNode* binarytreenode) { 
+	treeList* treelist= initTreeList();
+	while (binarytreenode || treelist->behindNode != NULL) {
+		if (binarytreenode) {
+			pushStack(treelist, binarytreenode);
+			binarytreenode = binarytreenode->leftNode;
+		}
+		else {
+			binarytreenode = popStack(treelist);
+			binarytreenode = binarytreenode->rightNode;
 		}
 	}
-}
-
-inline void preorderBinaryTree(binaryTreeNode* binarytreenode) {
-
 }
 inline void inorderBinaryTree(binaryTreeNode* binarytreenode) {
 

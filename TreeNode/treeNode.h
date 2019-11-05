@@ -2,26 +2,21 @@
 #ifndef _TREENODE_H_
 #define MAXSIZE 50
 
-typedef struct {
-	int data;
-}stackNode;
+typedef struct list {
+	binaryTreeNode* binarytreenode;
+	list* behindNode;
+}treeList;
 
-typedef struct {
-	int size;
-	dataNode stackList[MAXSIZE];
-	//stackNode tagNode[MAXSIZE];
+typedef struct node{
+	int data;
+	struct node* leftNode;
+	struct node* rightNode;
 }binaryTreeNode;
 
 typedef struct {
-	int data;
-	treeNode* leftNode;
-	treeNode* rightNode;
-}treeNode;
-
-typedef struct {
-	int data;
-	int leftChild;
-	int rightChild;
-}dataNode;
+	int topStack;
+	binaryTreeNode* binarytreenode[MAXSIZE];
+	int tagTreeNode[MAXSIZE];
+}binaryNode;
 
 #endif _TREENODE_H_
